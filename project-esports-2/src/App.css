@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+* {
+  /* font-family: Roboto !important; */
+  font-family: "Titillium Web", sans-serif !important;
+  -webkit-user-select: none !important;
+  user-select: none !important;
+}
+
+.app {
+  background-image: url("/public/images/fotor-ai-20240221122135.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.bgShade {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+a {
+  all: unset;
+}
+
+.Link {
+  cursor: pointer !important;
+}
+
+.gradientShade {
+  background: linear-gradient(transparent, black 40%, transparent 100%);
+}

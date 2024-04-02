@@ -1,0 +1,40 @@
+.statsCard{
+ width: 200px;
+ height: 200px;
+}
+.containerCards{
+    display: grid;
+    background-color: rgba(53, 1, 1, 0.9) !important;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+}
+.webstatsCards{
+    background-image: url("./component-images/bgff2.jpg");
+    background-position-y: 20%;
+    background-position-x: center;
+    background-size: cover;
+}
+@media screen and (width<900px) {
+    .statsCard{
+        width: 180px;
+        background: #000;
+        height: 180px;
+
+    }
+    .containerCards{
+        display: grid;
+        grid-template-columns: 6fr 6fr;
+    }
+}
+@media screen and (width<500px) {
+    .statsCard{
+        width: 180px;
+        background: #000;
+        height: 180px;
+
+    }
+    .containerCards{
+        display: grid;
+        font-size: 12px;
+        grid-template-columns: 6fr 6fr;
+    }
+}

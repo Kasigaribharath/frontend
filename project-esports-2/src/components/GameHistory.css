@@ -1,0 +1,22 @@
+.history-body{
+  background: linear-gradient(to bottom right,black -200%,white,black 300%);
+}
+.history-header{
+  background: linear-gradient(to  right,black -100%,red,black 200%);
+  
+}
+.gamehisory-card:hover{
+box-shadow: 0px 0px 15px rgb(168, 166, 166);
+}
+.card-subtitle{
+
+  font-size: 14px;
+}
+@media (max-width: 576px) { /* Adjust font size for mobile */
+  .card-text {
+    font-size: 14px;
+  }
+  .card-subtitle{
+    font-size: 10px;
+  }
+}

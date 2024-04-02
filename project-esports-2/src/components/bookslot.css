@@ -1,0 +1,17 @@
+.register{
+    height: 90vh;
+    background-color: rgb(26, 25, 25);
+    padding:0px 20px;
+}
+.form-control::placeholder{
+    color: white;
+}
+
+
+@media screen and (min-width: 1000px) {
+    .register{
+        width: 30%;
+        margin: 0px auto;
+        
+    }
+}

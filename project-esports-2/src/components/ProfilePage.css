@@ -1,0 +1,11 @@
+.accountContainer {
+    max-width: 600px;
+    padding: 2% 10%;
+    background: rgba(0, 0, 0, 0.2);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+.profilewrap{
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}

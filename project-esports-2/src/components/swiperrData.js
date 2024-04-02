@@ -1,0 +1,42 @@
+// this data is used for creating the state cards
+
+export const indianStates = [
+    { regionId: 1, coupon: 'AP1234', regionName: 'AndhraPradesh' },
+    { regionId: 2, coupon: 'AR2345', regionName: 'ArunachalPradesh' },
+    { regionId: 3, coupon: 'AS3456', regionName: 'Assam' },
+    { regionId: 4, coupon: 'BR4567', regionName: 'Bihar' },
+    { regionId: 5, coupon: 'CG5678', regionName: 'Chhattisgarh' },
+    { regionId: 6, coupon: 'GA6789', regionName: 'Goa' },
+    { regionId: 7, coupon: 'GJ7890', regionName: 'Gujarat' },
+    { regionId: 8, coupon: 'HR8901', regionName: 'Haryana' },
+    { regionId: 9, coupon: 'HP9012', regionName: 'HimachalPradesh' },
+    { regionId: 10, coupon: 'JH0123', regionName: 'Jharkhand' },
+    { regionId: 11, coupon: 'KA1111', regionName: 'Karnataka' },
+    { regionId: 12, coupon: 'KL2222', regionName: 'Kerala' },
+    { regionId: 13, coupon: 'MP3333', regionName: 'MadhyaPradesh' },
+    { regionId: 14, coupon: 'MH4444', regionName: 'Maharashtra' },
+    { regionId: 15, coupon: 'MN5555', regionName: 'Manipur' },
+    { regionId: 16, coupon: 'ML6666', regionName: 'Meghalaya' },
+    { regionId: 17, coupon: 'MZ7777', regionName: 'Mizoram' },
+    { regionId: 18, coupon: 'NL8888', regionName: 'Nagaland' },
+    { regionId: 19, coupon: 'OD9999', regionName: 'Odisha' },
+    { regionId: 20, coupon: 'PB0001', regionName: 'Punjab' },
+    { regionId: 21, coupon: 'RJ1111', regionName: 'Rajasthan' },
+    { regionId: 22, coupon: 'SK2222', regionName: 'Sikkim' },
+    { regionId: 23, coupon: 'TN3333', regionName: 'TamilNadu' },
+    { regionId: 24, coupon: 'TS4444', regionName: 'Telangana' },
+    { regionId: 25, coupon: 'TR5555', regionName: 'Tripura' },
+    { regionId: 26, coupon: 'UP6666', regionName: 'UttarPradesh' },
+    { regionId: 27, coupon: 'UK7777', regionName: 'Uttarakhand' },
+    { regionId: 28, coupon: 'WB8888', regionName: 'WestBengal' }
+];
+export const upcommindata = [
+    { tournamentid: 1, tournamentName: "12PM 40/380 PP", pricepool: 380 },
+    { tournamentid: 2, tournamentName: "12PM 25/230 PP", pricepool: 230 },
+    { tournamentid: 3, tournamentName: "3PM 40/380 PP", pricepool: 380 },
+    { tournamentid: 4, tournamentName: "3PM 25/230 PP", pricepool: 230 },
+    { tournamentid: 5, tournamentName: "6PM 40/380 PP", pricepool: 380 },
+    { tournamentid: 6, tournamentName: "6PM 25/230 PP", pricepool: 230 },
+    { tournamentid: 7, tournamentName: "9PM 40/380 PP", pricepool: 380 },
+    { tournamentid: 8, tournamentName: "9PM 25/230 PP", pricepool: 230 },
+]
