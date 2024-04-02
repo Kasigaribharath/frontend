@@ -15,7 +15,7 @@ export default function ScrollCards(props) {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get("http://localhost:3000/api/tournaments/");
+        const response = await axios.get("http://10.0.5.64:3000/api/tournaments/");
         setSwiperData(response.data);
       } catch (error) {
         console.error(error);
